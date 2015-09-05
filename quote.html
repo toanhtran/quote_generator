@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> 
+    <link rel='stylesheet' href='css/quote.css'>
+    <link href="http://fonts.googleapis.com/css?family=Lato:300|Grand+Hotel" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+  <h1> You daily dose of good thoughts</h2>
+  <h2>There are some of my favorite quotes.<br/> If you want to see a positive message click on the button</h2>
+  <button class='btn' onclick='myFunction()'>New Quote</button>
+    <p id='rand_quote'></p>
+    <script>
+      function myFunction() {
+      document.getElementById('rand_quote').innterHTML = "Be the change you wish to see.";
+      }
+    </script>
+  </body>
+</html>
