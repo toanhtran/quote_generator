@@ -1,8 +1,8 @@
-quote.cssbody {
+body {
   background-color: 
 }
 h1 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 300;
     line-height: 46px;
     font-size: 46px;
@@ -10,16 +10,16 @@ h1 {
     text-align:center;
     }
 h2 {
-    font-family: 'Grand Hotel', cursive;
-    font-weight: normal;
-    font-size: 35px;
+  font-family: 'Vampiro One',   cursive;    
+  font-weight: normal;
+    font-size: 25px;
     line-height: 25px;
     margin: 1rem 0 2rem 0;
     padding: 2rem 0;
     text-align:center;
     }
 p {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Vampiro One',   cursive;  
     font-size: 16px;
     line-height: 23px;
     margin: 0 0 23px 0;
@@ -27,7 +27,7 @@ p {
 .btn {
   text-align:center;
   margin-left:40%;
-  font-family:'Lato', sans-serif;
+  font-family: 'Raleway', sans-serif;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
    padding: 10px 15px;
