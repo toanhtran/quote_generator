@@ -2,12 +2,30 @@
 <html lang='en'>
   <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> 
+    <script type="text/javascript">
+      quotes = newArray(8);
+      quotes[0]= "Life is really simple, but we insist on making it complicated";
+      quotes[1]="It does not matter how slowly you go as long as you do not stop.";
+      quotes[2] ="The will to win, the desire to succeed, the urge to reach your full potential...these are the keys that will unlock the door to personal excellence.";
+      quote[3]="Our greatest glory is not in never falling, but in rising every time we fall.";
+      quote[4]="Everything has beauty, but not everone sees it.";
+      quote[5]="Wherever you go, go with all your heart.";
+      quote[6]="It is easy to hate and it is difficult to love. This is how the whole scheme of things works. All good things are difficult to achieve; and bad things are very easy to get.";
+      quote[7]="To practice five things under all circumstances constitutes perfect virtue; these five are gravity, generosity of soul, sincerity, earnestness, and kindness.";
+      setInterval(function() {
+        //calculate a random index
+        index = Math.floor(Math.random() *quotes.length);
+        document.getElementById('rand_quote').innterHTML = "Be the change you wish to see.";
+
+      }, 2000):
+      
+
     <link rel='stylesheet' href='css/quote.css'>
     <link href="http://fonts.googleapis.com/css?family=Lato:300|Grand+Hotel" rel="stylesheet" type="text/css" />
   </head>
   <body>
   <h1> You daily dose of good thoughts</h2>
-  <h2>There are some of my favorite quotes.<br/> If you want to see a positive message click on the button</h2>
+  <h2>There are some of my favorite Confucius quotes.<br/><br/>If you want to see a positive message click on the button</h2>
   <button class='btn' onclick='myFunction()'>New Quote</button>
     <p id='rand_quote'></p>
     <script>
