@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang='en'>
   <head>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+ 
+ 
   <link href='https://fonts.googleapis.com/css?family=Vampiro+One|Raleway:400,800' rel='stylesheet' type='text/css'>
   <link rel='stylesheet' href='css/quote.css'>
   </head>
@@ -10,17 +15,31 @@
       <div class='col-md-12'>
         <h1> Your daily dose of good thoughts</h2>
 
-        <h2>There are some of my  Confucius favorite quotes.<br/><br>
-          <!-- <br/> If you want to see a positive message click on the button</h2> -->
+        <h2>There are some of my favorite quotes.<br/><br>
         <div class="centered">
           <div class="text-center"> 
 
-          <button class='btn' onclick='myFunction()'>New Quote</button>
-         <div class='rand_quote'>
+          <button class='btn' type="submit" value="New Quote">New Quote</button>
+          
+<form action="http://api.forismatic.com/api/1.0/" method="method=getQuote&key=457653&format=xml&lang="en">
+
+
+<br><input type="submit" value="Generate Quote">
+</div>
+</form>
+          <div class="container">
+            <div class='jumbtron'>
+              <forismatic>
+                <quote>
+                <quoteText></quoteText>
+                <quoteAuthor></quoteAuthor>
+                </quote>
+              </forismatic>
+        
         </div>
       </div>
     </div>
   </div>
-</div>
+  </div>
  </body>
 </html>
