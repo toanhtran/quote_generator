@@ -1,29 +1,33 @@
+/* yellow = #D8D20A, white=#F1F1F1, black= #040404
+*/
 body {
 /*	background: #6696CF;
-*/  background-image: url('https://images.unsplash.com/photo-1433616174899-f847df236857?q=80&fm=justify-content: ;g&s=1f5d3705997e2a824a5bff2352940a7a'); 
+*/  background-image: url('http://bgfons.com/upload/stars_texture2956.jpg'); 
  	 background-repeat: no-repeat;
 }
 h1 {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
-    line-height: 46px;
+	font-family: 'Geostar Fill', cursive;   
+	line-height: 1rem;
     font-size: 46px;
     margin: 4rem auto 1rem;
     text-align:center;
-    color:#f0f0f0;
+    color:#D8D20A;
     }
-h2 {
-  	font-family: 'Vampiro One',   cursive;    
-  	font-weight: normal;
-    font-size: 25px;
+.head_intro{
+	font-family: 'Stalinist One', cursive;
+}    
+h2 , h3{
+	font-family: 'Stalinist One', cursive;
+    font-size: 20px;
     line-height: 25px;
     margin: 1rem 1rem 1rem 1rem;
     padding: 2rem 0;
     text-align:center;
     color:#f0f0f0;
     }
+
 p {
-    font-family: 'Vampiro One',   cursive;  
+    font-family: 'Sigmar One', cursive;
     font-size: 16px;
     line-height: 23px;
     margin: 0 0 23px 0;
@@ -35,18 +39,17 @@ p {
 
 .btn {
   	text-align:center;
-	font-family: 'Raleway', sans-serif;
-  	font-size: 800;
+	font-family: 'Stalinist One', cursive;
   	height:55px; 
-  	width: 200px;
+  	width: 35rem;
  	 -webkit-border-radius: 4px;
  	 -moz-border-radius: 4px;
   	padding: 10px 15px;
   	margin-bottom: 1rem;
-   	background: #4479BA;
+   	background: #040404;
   	color: #fff;
   	border-radius: 6px;
-   	border: solid 1px #20538D;
+   	border: solid 1px #D8D20A,;
    	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
    	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
    	 -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
