@@ -38,4 +38,20 @@ $( document ).ready(function() {
     	name:"Han Solo"
     }, 
 
-    }]
+    }];
+
+    var generateQuote = function() {
+    	var randQuote = Math.floor(Math.random() * quotes.length);
+    	var newQuote = quotes[idx].quote;
+    	var authorText = "~" + quotes[idx].name;
+    	$('randQuote p').text(newQuote);
+    	$('author p').text(authorText);
+    };
+
+    generateQuote();
+
+    $('btn').click(function(){
+    	generateQuote();
+
+    });
+});
