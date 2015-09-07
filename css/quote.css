@@ -7,12 +7,12 @@ body {
 }
 @font-face {
 	font-family: StarWars;
-	src: url(Star_Jedi_Rounded.ttf);
+	src: url('../fonts/StarJedi.ttf') format('tryetype');
 }
 h1 {
-	font-family: 'Geostar Fill', cursive;   
-	line-height: 1rem;
-    font-size: 46px;
+	font-family: 'StarJedi','Geostar fill', cursive;   
+	line-height: 2.5rem;
+    font-size: 60px;
     margin: 4rem auto 1rem;
     text-align:center;
     color:#D8D20A;
