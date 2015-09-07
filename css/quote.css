@@ -29,67 +29,65 @@ h2 {
     text-align:center;
     color:#f0f0f0;
 }
-
-.head_intro{
-	font-family: 'Stalinist One', cursive;
-	margin: 1em 2em ;
-	padding: 1rem 1rem 0 2rem;
-	color:#f0f0f0;
-	animation-duration: 3s;
-  	animation-delay: 3s;
-  	animation-iteration-count: 1;
+.head_intro {
+  font-family: 'Sigmar one', cursive;
+  margin: 1em 2em;
+  padding: 1rem 1rem 0 2rem;
+  color: #f0f0f0;
+  animation-duration: 3s;
+  animation-delay: 3s;
+  animation-iteration-count: 2s;
 }
 
-h3 {
-	font-family: 'Stalinist One', cursive;
-    font-size: 20px;
-    line-height: 1rem;
-    margin: 1rem 1rem 1rem 0rem;
-    padding: 2rem 0;
-    text-align:center;
-    color:#f0f0f0;
-
+.bodyText {
+  font-family: 'Stalinist One', cursive;
+  font-size: 20px;
+  line-height: 1rem;
+  margin: 1rem 1rem 1rem 0rem;
+  padding: 2rem 0;
+  text-align: center;
+  color: #f0f0f0;
 }
 
-p {
-	font-family: 'Sigmar One', cursive;
-	/*color: #D2D025 ;*/
-    font-size: 16px;
-    line-height: 23px;
-    margin: 0 0 23px 0;
-    }
+.quote {
+  font-family: 'Sigmar one', cursive;
+  font-size: 18px;
+  line-height: 20px;
+  margin: auto;
+  padding: 2rem;
+  color: #040404;
+}
 
-.centered
-{
-    text-align:center;
+.centered {
+  text-align: center;
 }
 
 .btn {
-  	text-align:center;
-	font-family: 'StarJedi','Sigmar One', cursive;
-	font-size: 2rem;
-  	height:50px; 
-  	width: 35rem;
- 	 -webkit-border-radius: 4px;
- 	 -moz-border-radius: 4px;
-  	padding: 10px 15px;
-  	margin-bottom: 1rem;
-   	background: #D8D20A;
-  	color: #fff;
-  	border-radius: 6px;
-   	border: solid 1px #D8D20A,;
-   	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
-   	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
-   	 -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
-    animation-duration: 3s;
-  	animation-delay: 5s;
-  	animation-iteration-count: 3;
+  text-align: center;
+  font-family: 'StarJedi', 'Sigmar One', cursive;
+  font-size: 2rem;
+  height: 50px;
+  width: 35rem;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  padding: 10px 15px;
+  margin-bottom: 1rem;
+  background: #D8D20A;
+  color: #fff;
+  border-radius: 6px;
+  border: solid 1px #D8D20A, ;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+  animation-duration: 3s;
+  animation-delay: 7s;
+  animation-iteration-count: 3;
 }
 
-.jumbtron{
-	margin: 1rem;
-	background-color: #f0f0f0;
-	color:#6696CF ;
-	border-radius: 10px;
+.jumbtron {
+  margin: 2rem;
+  background-color: #f0f0f0;
+  color: #6696CF;
+  border-radius: 10px;
 }
