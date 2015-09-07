@@ -5,6 +5,10 @@ body {
 */  background-image: url('http://bgfons.com/upload/stars_texture2956.jpg'); 
  	 background-repeat: no-repeat;
 }
+@font-face {
+	font-family: StarWars;
+	src: url(Star_Jedi_Rounded.ttf);
+}
 h1 {
 	font-family: 'Geostar Fill', cursive;   
 	line-height: 1rem;
